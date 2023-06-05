@@ -1,0 +1,38 @@
+@media screen and (max-width: 375px) {
+    body{
+        padding: 20px;
+    }
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+    .product{
+        background: url(images/image-product-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 240px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0;
+        margin-bottom: -10px;
+    }
+    .product-name{
+        margin-bottom: 10px;
+        font-size: 11px;
+    }
+    .preview h1{
+        margin-bottom: 10px;
+        font-size: 28px;
+    }
+    .content{
+        margin-bottom: 15px;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    .price{
+        margin-bottom: 15px;
+    }
+    .atc-btn{
+        padding: 10px;
+    }
+
+}

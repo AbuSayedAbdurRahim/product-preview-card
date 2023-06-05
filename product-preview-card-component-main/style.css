@@ -1,0 +1,119 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@400;600;900&family=Montserrat:wght@100&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background: #F3EAE3;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    /* height: 450px; */
+    background: #fff;
+    width: 100%;
+    max-width: 600px;
+    border-radius:10px;
+    display: grid;
+    grid-template-columns: 300px 300px;
+}
+
+.product{
+    background: url(images/image-product-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /* height: 450px; */
+}
+
+.preview{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.product-name{
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 6px;
+}
+
+.preview h1{
+    line-height: 1;
+    margin-bottom: 25px;
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+}
+
+.content{
+    line-height: 1.5;
+    font-size: 18px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.price{
+    margin-bottom: 25px;
+    display: flex;
+    align-content: center;
+}
+
+.new-price{
+    color: #3D8168;
+    font-size: 32px;
+    font-family: 'Fraunces', sans-serif ;
+    font-weight: 600;
+    font-size: 32px;
+}
+
+.old-price{
+    text-decoration: line-through;
+    color: #767982;
+    margin-left: 20px;
+    align-self: center;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 12px;
+    font-weight: 900;
+}
+
+.atc-btn{
+    text-decoration: none;
+    color: white;
+    background: #3D8168;
+    display: flex;
+    padding: 20px ;
+    border-radius: 10px;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: ease 1s;
+}
+
+.atc-btn:hover{
+    background: #1A4031;
+}
+
+.atc-btn img{
+    margin-right: 10px;
+}
+
+.atc-btn p{
+    /* font-family: ; */
+    font-weight: 700;
+}
